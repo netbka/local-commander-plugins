@@ -1,0 +1,10 @@
+# dsh-mcp-client sends static headers only, and localcmd.app issues short-lived OAuth tokens,
+# so mcp-remote runs the OAuth sign-in and token refresh and bridges the server over stdio.
+- insert:
+    - id: local-commander
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: local-commander
+        transport: stdio
+        command: npx
+        args: ['-y', 'mcp-remote@0.15.1', 'https://localcmd.app/mcp']
