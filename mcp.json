@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "local-commander": {
+      "url": "https://localcmd.app/mcp"
+    }
+  }
+}
