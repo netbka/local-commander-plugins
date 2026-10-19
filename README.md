@@ -1,8 +1,8 @@
-# Local Commander for Cursor, DeepSeek Harness and Antigravity
+# Local Commander for Cursor, DeepSeek Harness, Antigravity and Kiro
 
-Connects Cursor, DeepSeek Harness and Antigravity to [Local Commander](https://localcmd.app) at `https://localcmd.app/mcp`. Your AI can inspect approved project files and Git state, run the checks and commands you authorize, and diagnose approved localhost services on Windows 11 computers you own. Your workspace at localcmd.app shows which computer ran each request and how it ended.
+Connects Cursor, DeepSeek Harness, Antigravity and Kiro to [Local Commander](https://localcmd.app) at `https://localcmd.app/mcp`. Your AI can inspect approved project files and Git state, run the checks and commands you authorize, and diagnose approved localhost services on Windows 11 computers you own. Your workspace at localcmd.app shows which computer ran each request and how it ended.
 
-This repository holds configuration only: a Cursor plugin, a DeepSeek Harness bundle and an Antigravity plugin. The service runs at localcmd.app.
+This repository holds configuration only: a Cursor plugin, a DeepSeek Harness bundle, an Antigravity plugin and a Kiro Power. The service runs at localcmd.app.
 
 ## Requirements
 
@@ -67,6 +67,12 @@ agy plugin install https://github.com/netbka/local-commander-plugins
 ```
 
 Or clone the repository and run `agy plugin install <folder>`. Remove with `agy plugin uninstall local-commander`.
+
+## Kiro
+
+The `kiro-power/` folder is a Kiro Power in the Agent Plugins format (`plugin.json` and `mcp.json`). It points Kiro at the remote server `https://localcmd.app/mcp` (Streamable HTTP), which uses OAuth 2.0 sign-in at localcmd.app.
+
+Install: in Kiro, open the Powers panel, choose **Add Custom Power**, then **Import power from GitHub**, and enter `https://github.com/netbka/local-commander-plugins/tree/main/kiro-power`.
 
 ## Links
 
