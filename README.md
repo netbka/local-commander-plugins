@@ -1,8 +1,8 @@
-# Local Commander for Cursor and DeepSeek Harness
+# Local Commander for Cursor, DeepSeek Harness and Antigravity
 
-Connects Cursor and DeepSeek Harness to [Local Commander](https://localcmd.app) at `https://localcmd.app/mcp`. Your AI can inspect approved project files and Git state, run the checks and commands you authorize, and diagnose approved localhost services on Windows 11 computers you own. Your workspace at localcmd.app shows which computer ran each request and how it ended.
+Connects Cursor, DeepSeek Harness and Antigravity to [Local Commander](https://localcmd.app) at `https://localcmd.app/mcp`. Your AI can inspect approved project files and Git state, run the checks and commands you authorize, and diagnose approved localhost services on Windows 11 computers you own. Your workspace at localcmd.app shows which computer ran each request and how it ended.
 
-This repository holds configuration only: a Cursor plugin and a DeepSeek Harness bundle. The service runs at localcmd.app.
+This repository holds configuration only: a Cursor plugin, a DeepSeek Harness bundle and an Antigravity plugin. The service runs at localcmd.app.
 
 ## Requirements
 
@@ -55,6 +55,18 @@ Remove:
 ```sh
 dsh plugin --profile web remove local-commander-dsh
 ```
+
+## Antigravity
+
+This repository is also an Antigravity plugin (`.antigravity-plugin/plugin.json` plus `mcp_config.json`). Like the DeepSeek Harness bundle, it starts [`mcp-remote`](https://github.com/punkpeye/mcp-remote) over stdio, which opens localcmd.app in your browser to sign in and approve access (OAuth 2.0) and keeps the token refreshed. Requests show the client name "MCP CLI Proxy" in your localcmd.app workspace.
+
+Install:
+
+```sh
+agy plugin install https://github.com/netbka/local-commander-plugins
+```
+
+Or clone the repository and run `agy plugin install <folder>`. Remove with `agy plugin uninstall local-commander`.
 
 ## Links
 
