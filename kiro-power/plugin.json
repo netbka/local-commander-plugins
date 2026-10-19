@@ -8,7 +8,7 @@
     "email": "peter.mamrukov@localcmd.app",
     "url": "https://localcmd.app"
   },
-  "keywords": ["local commander", "localcmd", "windows pc", "my computer", "remote computer", "home pc", "work pc", "dev server", "localhost"],
+  "keywords": ["local commander", "localcmd", "windows pc", "remote windows", "remote computer", "home pc", "work pc"],
   "license": "MIT",
   "homepage": "https://localcmd.app",
   "repository": "https://github.com/netbka/local-commander-plugins"
