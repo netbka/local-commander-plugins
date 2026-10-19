@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "local-commander": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote@0.15.1", "https://localcmd.app/mcp"]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "local-commander",
+  "version": "1.0.0",
+  "description": "Work on approved projects on your Windows computers: read files and Git, run the checks you approve, and check local services.",
+  "author": { "name": "Peter Mamrukov", "email": "peter.mamrukov@localcmd.app" },
+  "homepage": "https://localcmd.app",
+  "repository": "https://github.com/netbka/local-commander-plugins",
+  "license": "MIT"
+}
