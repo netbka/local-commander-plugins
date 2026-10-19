@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "local-commander",
+  "version": "1.0.0",
+  "description": "Work on approved projects on your Windows computers: read files and Git, run the checks you approve, and check local services.",
+  "author": {
+    "name": "Peter Mamrukov",
+    "email": "peter.mamrukov@localcmd.app",
+    "url": "https://localcmd.app"
+  },
+  "keywords": ["local commander", "localcmd", "windows pc", "my computer", "remote computer", "home pc", "work pc", "dev server", "localhost"],
+  "license": "MIT",
+  "homepage": "https://localcmd.app",
+  "repository": "https://github.com/netbka/local-commander-plugins"
+}
