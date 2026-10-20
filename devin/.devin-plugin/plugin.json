@@ -1,0 +1,19 @@
+{
+  "name": "local-commander",
+  "displayName": "Local Commander",
+  "description": "Work on approved projects on your Windows computer: read files and Git, run the checks you approve.",
+  "shortDescription": "Work on your Windows projects",
+  "homepage": "https://localcmd.app",
+  "repository": "https://github.com/netbka/local-commander-plugins",
+  "logo": "logo.png",
+  "keywords": [
+    "windows",
+    "development",
+    "mcp"
+  ],
+  "mcpServers": {
+    "local-commander": {
+      "url": "https://localcmd.app/mcp"
+    }
+  }
+}
