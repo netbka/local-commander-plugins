@@ -1,7 +1,7 @@
 {
   "name": "local-commander",
   "version": "1.0.0",
-  "description": "Work on approved projects on your Windows computer: read files and Git, run the checks you approve.",
+  "description": "Give your AI hands on every computer you own. One chat, all your machines — even from your phone.",
   "author": {
     "name": "Peter Mamrukov"
   },
@@ -9,7 +9,7 @@
   "repository": "https://github.com/netbka/local-commander-plugins",
   "license": "MIT",
   "keywords": [
-    "windows",
+    "pc",
     "development",
     "mcp"
   ]

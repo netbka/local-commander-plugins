@@ -1,13 +1,13 @@
 {
   "name": "local-commander",
   "displayName": "Local Commander",
-  "description": "Work on approved projects on your Windows computer: read files and Git, run the checks you approve.",
-  "shortDescription": "Work on your Windows projects",
+  "description": "Give your AI hands on every computer you own. One chat, all your machines — even from your phone.",
+  "shortDescription": "Work on your projects",
   "homepage": "https://localcmd.app",
   "repository": "https://github.com/netbka/local-commander-plugins",
   "logo": "logo.png",
   "keywords": [
-    "windows",
+    "pc",
     "development",
     "mcp"
   ],

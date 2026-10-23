@@ -1,7 +1,7 @@
 {
   "name": "local-commander",
   "version": "1.0.0",
-  "description": "Let Cursor work on approved projects on your Windows computer: read files and Git, run the checks you approve, and check local services.",
+  "description": "Give your AI hands on every computer you own. One chat, all your machines — even from your phone.",
   "author": {
     "name": "Peter Mamrukov",
     "email": "peter.mamrukov@localcmd.app"
@@ -9,12 +9,6 @@
   "homepage": "https://localcmd.app",
   "repository": "https://github.com/netbka/local-commander-plugins",
   "license": "MIT",
-  "keywords": [
-    "windows",
-    "remote",
-    "git",
-    "dev-server",
-    "developer-tools"
-  ],
+  "keywords": ["pc", "remote", "git", "dev-server", "developer-tools"],
   "logo": "assets/logo.png"
 }

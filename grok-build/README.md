@@ -1,6 +1,6 @@
 # Local Commander
 
-Work on approved projects on your Windows computer: read files and Git, run the checks you approve.
+Give your AI hands on every computer you own. One chat, all your machines — even from your phone.
 
 Local Commander connects your AI to Windows 11 computers you own. Your workspace at https://localcmd.app shows which computer ran each request and how it ended.
 

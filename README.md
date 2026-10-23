@@ -1,6 +1,6 @@
 # Local Commander for Cursor, DeepSeek Harness, Antigravity and Kiro
 
-Connects Cursor, DeepSeek Harness, Antigravity and Kiro to [Local Commander](https://localcmd.app) at `https://localcmd.app/mcp`. Your AI can inspect approved project files and Git state, run the checks and commands you authorize, and diagnose approved localhost services on Windows 11 computers you own. Your workspace at localcmd.app shows which computer ran each request and how it ended.
+Connects Cursor, DeepSeek Harness, Antigravity and Kiro to [Local Commander](https://localcmd.app) at `https://localcmd.app/mcp`. Your AI gets hands on every computer you own: it can run commands and scripts, change settings, edit files and check local services on any of them, from one chat. Your workspace at localcmd.app shows which computer ran each request and how it ended.
 
 This repository holds configuration only: a Cursor plugin, a DeepSeek Harness bundle, an Antigravity plugin and a Kiro Power. The service runs at localcmd.app.
 
