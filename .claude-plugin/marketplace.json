@@ -1,0 +1,26 @@
+{
+  "name": "local-commander",
+  "owner": {
+    "name": "Peter Mamrukov",
+    "email": "peter.mamrukov@localcmd.app"
+  },
+  "metadata": {
+    "description": "Local Commander plugins: run tasks on your own computers from your AI chat."
+  },
+  "plugins": [
+    {
+      "name": "local-commander",
+      "source": "./claude-code",
+      "description": "Run tasks on your own Windows, macOS or Linux computers from Claude Code — commands, files, Git, localhost checks and screenshots, even from your phone. The computer needs no AI client installed.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Peter Mamrukov",
+        "email": "peter.mamrukov@localcmd.app"
+      },
+      "homepage": "https://localcmd.app",
+      "license": "MIT",
+      "keywords": ["remote", "computers", "mcp", "commands", "files", "git", "homelab", "developer-tools"],
+      "category": "productivity"
+    }
+  ]
+}
