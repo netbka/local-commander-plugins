@@ -1,5 +1,7 @@
 # Local Commander for Cursor, DeepSeek Harness, Antigravity, Kiro and LM Studio
 
+[![M8ven Score](https://m8ven.ai/badge/mcp/netbka-local-commander-plugins-1j2wd2?variant=verified)](https://m8ven.ai/mcp/netbka-local-commander-plugins-1j2wd2?s=readme)
+
 Connects Cursor, DeepSeek Harness, Antigravity, Kiro and LM Studio to [Local Commander](https://localcmd.app) at `https://localcmd.app/mcp`. Your AI gets hands on every computer you own: it can run commands and scripts, change settings, edit files and check local services on any of them, from one chat. Your workspace at localcmd.app shows which computer ran each request and how it ended.
 
 This repository holds configuration only: a Cursor plugin, a DeepSeek Harness bundle, an Antigravity plugin, a Kiro Power and LM Studio settings. The service runs at localcmd.app.
