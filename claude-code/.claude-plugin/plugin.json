@@ -1,0 +1,20 @@
+{
+  "name": "local-commander",
+  "displayName": "Local Commander",
+  "version": "1.0.0",
+  "description": "Run tasks on your own computers from this chat: commands, files, Git, localhost checks and screenshots on every Windows, macOS or Linux machine you pair, even from your phone. The computer needs no AI client installed.",
+  "author": {
+    "name": "Peter Mamrukov",
+    "email": "peter.mamrukov@localcmd.app",
+    "url": "https://localcmd.app"
+  },
+  "homepage": "https://localcmd.app",
+  "repository": "https://github.com/netbka/local-commander-plugins",
+  "license": "MIT",
+  "keywords": ["remote", "computers", "mcp", "commands", "files", "git", "homelab", "developer-tools"],
+  "icon": "./logo.png",
+  "documentationUrl": "https://localcmd.app/support",
+  "supportUrl": "https://localcmd.app/support",
+  "privacyPolicyUrl": "https://localcmd.app/privacy",
+  "termsOfServiceUrl": "https://localcmd.app/terms"
+}
