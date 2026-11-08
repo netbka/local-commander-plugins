@@ -1,6 +1,6 @@
 # Antivirus and npm malware flags, October–November 2026
 
-*Local Commander (localcmd.app) and Nulio (nulio.ru). Written by Peter Mamrukov, the founder of both products. Last updated 6 November 2026.*
+*Local Commander (localcmd.app) and Nulio (nulio.ru). Written by Peter Mamrukov, the founder of both products. Last updated 8 November 2026.*
 
 ## In short
 
@@ -33,7 +33,8 @@ Both are dual-use by nature: a tool that runs commands on a computer is exactly 
 | 4 Nov | We release Local Commander 0.3.64 and Nulio connector 1.1.21 with the changes below, published to GitLab only. |
 | 5 Nov | Kaspersky's Allowlist team: the `JobHost.exe` detection "was a false detection. It was fixed." Our allowlist application is with their malware experts. |
 | 5–6 Nov | AVG confirms our uploaded Local Commander files are whitelisted. |
-| 6 Nov | We send npm the vendor results and ask for a review. We file a false-positive report with the OpenSSF Malicious Packages project. |
+| 6 Nov | We send npm the vendor results and ask for a review. |
+| 8 Nov | We file a false-positive report with the OpenSSF Malicious Packages project ([ossf/malicious-packages#1756](https://github.com/ossf/malicious-packages/issues/1756)) and ask the community for advice ([community discussion #212435](https://github.com/orgs/community/discussions/212435)). |
 
 ## What was fair in the flags, and what we changed
 
@@ -75,7 +76,7 @@ We do not have a copy of the exact bytes npm removed for `local-commander-agent`
 
 - npm: no answer yet on the classification or the accounts (ticket 4932980).
 - GitHub advisories GHSA-7j62-5j84-72fv and GHSA-v25g-rj4q-4q96: GitHub does not accept outside edits to malware advisories, so only npm can withdraw them.
-- OpenSSF Malicious Packages: false-positive report filed for MAL-2026-18425 and MAL-2026-18526.
+- OpenSSF Malicious Packages: false-positive report [#1756](https://github.com/ossf/malicious-packages/issues/1756) for MAL-2026-18425 and MAL-2026-18526.
 - Kaspersky Allowlist: review by their malware experts, usually 12–14 business days.
 
 We will update this page as answers come in.
