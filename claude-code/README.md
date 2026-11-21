@@ -4,11 +4,13 @@ Run tasks on your own computers from this chat. Pair a Windows, macOS or Linux m
 
 ## Set up
 
-1. On each computer you want to reach, run:
+1. On each computer you want to reach, run on Windows:
 
    ```
-   npx local-commander-agent@latest
+   npx --registry=https://gitlab.com/api/v4/projects/88458751/packages/npm/ local-commander-agent@latest
    ```
+
+   On macOS or Linux, copy the command for your platform from step 1 at https://localcmd.app/#how-it-works.
 
    and approve the pairing in the browser that opens. Choose full access to your user account or only the folders you pick.
 
