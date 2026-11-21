@@ -6,7 +6,7 @@ Local Commander connects your AI to Windows 11 computers you own. Your workspace
 
 ## Setup
 
-Create a Local Commander account, pair a Windows 11 x64 computer using Node.js 20+ and `npx local-commander-agent@latest`, and keep the agent online. Connect this plugin to https://localcmd.app/mcp and complete the browser OAuth consent. Select the intended computer and workspace before work begins.
+Create a Local Commander account, pair a Windows 11 x64 computer using Node.js 20+ and `npx --registry=https://gitlab.com/api/v4/projects/88458751/packages/npm/ local-commander-agent@latest`, and keep the agent online. Connect this plugin to https://localcmd.app/mcp and complete the browser OAuth consent. Select the intended computer and workspace before work begins.
 
 Once you approve a computer and connect your AI, it can do what your Windows account can do. You can limit it to folders, block commands, stop running work or switch a computer off. Full Access is not an OS sandbox. Files, command output and other requested results return through Local Commander to your AI provider.
 
