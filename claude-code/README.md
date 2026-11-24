@@ -1,6 +1,6 @@
 # Local Commander for Claude Code
 
-Run tasks on your own computers from this chat. Pair a Windows, macOS or Linux machine once, and Claude Code can run commands, read, write and search files, use Git, check localhost services, follow long jobs and take screenshots on it — from your desk or from your phone. The computer you work on needs no AI client installed.
+Run tasks on your own computers from this chat. Pair a Windows, macOS or Linux machine once, and Claude Code can run commands, read, write and search files, use Git, check localhost services and follow long jobs on it, and take screenshots (beta, on request at localcmd.app) — from your desk or from your phone. The computer you work on needs no AI client installed.
 
 ## Set up
 
