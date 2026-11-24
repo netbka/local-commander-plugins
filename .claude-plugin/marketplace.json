@@ -11,7 +11,7 @@
     {
       "name": "local-commander",
       "source": "./claude-code",
-      "description": "Run tasks on your own Windows, macOS or Linux computers from Claude Code — commands, files, Git, localhost checks and screenshots, even from your phone. The computer needs no AI client installed.",
+      "description": "Run tasks on your own Windows, macOS or Linux computers from Claude Code — commands, files, Git and localhost checks, plus screenshots as a beta on request, even from your phone. The computer needs no AI client installed.",
       "version": "1.0.0",
       "author": {
         "name": "Peter Mamrukov",
