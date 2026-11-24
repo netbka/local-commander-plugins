@@ -2,7 +2,7 @@
   "name": "local-commander",
   "displayName": "Local Commander",
   "version": "1.0.0",
-  "description": "Run tasks on your own computers from this chat: commands, files, Git, localhost checks and screenshots on every Windows, macOS or Linux machine you pair, even from your phone. The computer needs no AI client installed.",
+  "description": "Run tasks on your own computers from this chat: commands, files, Git and localhost checks (screenshots as a beta on request) on every Windows, macOS or Linux machine you pair, even from your phone. The computer needs no AI client installed.",
   "author": {
     "name": "Peter Mamrukov",
     "email": "peter.mamrukov@localcmd.app",

@@ -9,7 +9,7 @@ This repository holds configuration only: a Cursor plugin, a DeepSeek Harness bu
 ## Requirements
 
 - A Local Commander account at [localcmd.app](https://localcmd.app).
-- A Windows 11 x64 computer with Node.js 20 or later and the paired agent: run `npx --registry=https://gitlab.com/api/v4/projects/88458751/packages/npm/ local-commander-agent@latest` on it, then choose full access or selected folders.
+- A Windows 11 x64, macOS (Apple Silicon) or Linux (x64 or ARM64) computer with Node.js 20 or later and the paired agent. On Windows run `npx --registry=https://gitlab.com/api/v4/projects/88458751/packages/npm/ local-commander-agent@latest` on it, then choose full access or selected folders; the macOS and Linux commands are on [localcmd.app](https://localcmd.app/#how-it-works).
 - The computer must be online for work and for reading results.
 
 Once you approve a computer and connect your AI, it can do what your Windows account can do, just like you at the keyboard. You can limit it to certain folders, block commands, stop running work, or switch a computer off from the site at any time. Every run shows which computer did it. Whatever the AI asks for goes back to the AI.
@@ -31,7 +31,7 @@ Once you approve a computer and connect your AI, it can do what your Windows acc
 
 Troubleshooting:
 
-- **The agent reports no computers:** start the agent on the Windows computer and check that it shows as online at localcmd.app.
+- **The agent reports no computers:** start the agent on that computer and check that it shows as online at localcmd.app.
 - **Sign-in loops or fails:** open Output, choose "MCP Logs", and check the OAuth error; then remove and re-add the server.
 - **A result is unknown:** the computer dropped during the task. The work is not re-run automatically; check the computer and ask again.
 
